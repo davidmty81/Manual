@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
     <head>
         
         <title>Manual de capacitacion</title>
@@ -6,7 +8,7 @@
                 padding: 5%;}
             #Panel{color: rgba(63, 19, 19, 0.863);
                     background-color: cornsilk;
-                    height: 1000px;
+                    height: 1200px;
                     width: 600px;
                     box-shadow: 10px 10px black;
                     padding: 5%;
@@ -24,53 +26,53 @@
             <h3>Preguntas generales para determinar la falla</h3>
             
             <ul>
-            <li>¿Se ha ralentizado toda la PC o solo aplicaciones específicas? </strong> </li>
-            <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual2/';" value="Toda la PC" />
-            <input type="button" onclick="location.href='http://davidmty81.github.io/manual3/';" value="Aplicacion" /></center>
+                <li>¿Se ha ralentizado toda la PC o solo aplicaciones específicas? </strong> </li>
+                <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual2/';" value="Toda la PC" />
+                <input type="button" onclick="location.href='http://davidmty81.github.io/manual3/';" value="Aplicacion" /></center>
+                <br>
+                <li>¿La máquina se siente lenta al escribir?</strong> </li>
+                <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual4/';" value="Si" />
+                <input type="button" onclick="location.href='http://davidmty81.github.io/manual5/';" value="No" /></center>
+                <br>            
+                <li>¿Tiene el mismo retraso si se inicia en modo seguro?</strong></li>
+                <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual6/';" value="Si" /></center>           
+                <br>           
+                <li>¿La PC comienza a funcionar lentamente desde el inicio o despues de unos minutos?</strong></li>
+                <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual8/';" value="Inicio" />
+                <input type="button" onclick="location.href='http://davidmty81.github.io/manual9/';" value="Despues" /></center>
+                <br>            
+                <li>¿El sistema es lento o también inestable?  </strong> </li>
+                <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual10/';" value="Solo Lento" />
+                <input type="button" onclick="location.href='http://davidmty81.github.io/manual11/';" value="Inestable" /></center>    
             <br>
-            <li>¿La máquina se siente lenta al escribir?</strong> </li>
-            <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual4/';" value="Si" />
-            <input type="button" onclick="location.href='http://davidmty81.github.io/manual5/';" value="No" /></center>
-            <br>            
-            <li>¿Tiene el mismo retraso si se inicia en modo seguro?</strong></li>
-            <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual6/';" value="Si" /></center>           
-            <br>           
-            <li>¿La PC comienza a funcionar lentamente desde el inicio o despues de unos minutos?</strong></li>
-            <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual8/';" value="Inicio" />
-            <input type="button" onclick="location.href='http://davidmty81.github.io/manual9/';" value="Despues" /></center>
-            <br>            
-            <li>¿El sistema es lento o también inestable?  </strong> </li>
-            <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual10/';" value="Solo Lento" />
-            <input type="button" onclick="location.href='http://davidmty81.github.io/manual11/';" value="Inestable" /></center>
-           
-            <br>            
-            <br>  
+            
+           </ul>
+            
             <h3>Para ver problemas del hardware revise lo siguiente</h3>
+            <ul>
             <center><input type="button" onclick="location.href='http://davidmty81.github.io/manual12/';" value="Hardware" /></center>
             <br>
-            <br>
-                
             <center></a><img src="https://i.ibb.co/fGJcdnV/imageonline-co-whitebackgroundremoved-20-1.png"></a></center>
-            
-            <br>
+            </ul>
 
-            <div id="left"><h3>Si tiene cualquier duda, por favor, póngase en contacto por este medio</h3></div>
- <ul/>
+            <h3 id="contactar">Si tiene cualquier duda, por favor, póngase en contacto por este medio</h3>
+
             <center><label for="topic">Tema: </label>
             <select id="topic">
             <option>-- Elige un tema --</option>
             <option>Software</option>
             <option>Hardware</option>
-            <option>Otro</option>
             </select>
 
-             <label for="subject">Correo de contacto: </label>
+            <label for="subject">Correo de contacto: </label>
             <input id="subject" type="text" required="">
+            <br>
             <br>
             <label for="body">Mensaje:</label>
             <textarea id="body" required=""></textarea>
             
             <div id="bloquearboton">
-            <br>
+                <br>
             <button onclick="alert('Mensaje Enviado!');">Enviar</button></center>
     </body>
+</html>
